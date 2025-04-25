@@ -5,9 +5,9 @@ import java.lang.IllegalArgumentException;
 public class Desafio {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
-        System.out.println("Digite o primeiro parâmetro");
+        System.out.println("Digite o primeiro parâmetro: ");
         int parametroUm = terminal.nextInt(); // preenchido com nextInt()
-        System.out.println("Digite o segundo parâmetro");
+        System.out.println("Digite o segundo parâmetro: ");
         int parametroDois = terminal.nextInt(); // preenchido com nextInt()
 
         try {
